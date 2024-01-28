@@ -70,7 +70,7 @@ const ListItems = styled.li`
     }
   }
   @media only screen and (max-width: 1000px){
-    font-size: 25px;
+    font-size: 35px;
   }
 `;
 const Right = styled.div`
