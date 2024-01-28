@@ -74,6 +74,10 @@ const Right = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media only screen and (max-width: 1000px){
+    visibility: hidden;
+    flex: 0;
+  }
 `;
 
 export default function Contact() {
