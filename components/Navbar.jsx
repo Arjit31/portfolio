@@ -20,6 +20,9 @@ const Links = styled.div`
 `;
 const Logo = styled.img`
   height: 40px;
+  @media only screen and (max-width: 1000px){
+    height: 30px;
+  }
 `;
 const List = styled.ul`
   display: flex;
@@ -30,6 +33,9 @@ const ListItems = styled.li`
   cursor: pointer;
   &:active {
     color: #d4d4d4;
+  }
+  @media only screen and (max-width: 1000px){
+    font-size: 12px;
   }
 `;
 const Icons = styled.div``;
@@ -46,6 +52,10 @@ const Button = styled.button`
   font-weight: 600;
   &:active {
     background-color: #103c42;
+  }
+  @media only screen and (max-width: 1000px){
+    font-size: 12px;
+    width: 50px;
   }
 `;
 
