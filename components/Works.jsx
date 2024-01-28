@@ -69,6 +69,9 @@ const ListItems = styled.li`
       }
     }
   }
+  @media only screen and (max-width: 1000px){
+    font-size: 25px;
+  }
 `;
 const Right = styled.div`
   flex: 1;
@@ -76,18 +79,30 @@ const Right = styled.div`
   align-items: center;
   justify-content: center;
   position: relative;
+  @media only screen and (max-width: 1000px){
+    visibility: hidden;
+    flex: 0;
+  }
 `;
 const Img = styled.img`
   height: 250px;
   width: 450px;
   object-fit: fill;
   margin-bottom: 30px;
+  @media only screen and (max-width: 1000px){
+    height: 0;
+    width: 0;
+  }
 `;
 const Img1 = styled.img`
   height: 390px;
   width: 560px;
   object-fit: fill;
   position: absolute;
+  @media only screen and (max-width: 1000px){
+    height: 0;
+    width: 0;
+  }
 `;
 const LinkOverlay = styled.a`
   position: absolute;
