@@ -14,7 +14,7 @@ const MapChart = () => {
       projectionConfig={{
         rotate: [-75.0, -52.0, 0],
         center: [7, -30],
-        scale: 2000
+        scale: 3000
       }}
       style={{width:"100%", height:"100%", border:"solid #FFFFFF 3px", borderRadius:"5px"}}
     >
