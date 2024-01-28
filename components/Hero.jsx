@@ -32,12 +32,18 @@ const Left = styled.div`
 const Title = styled.h1`
   font-size: 60px;
   margin: 0;
+  @media only screen and (max-width: 1000px){
+    font-size: 30px;
+  }
 `;
 const WhatIDo = styled.div`
   display: flex;
   align-items: center;
   gap: 10px;
   margin: 0;
+  @media only screen and (max-width: 1000px){
+    font-size: 12px;
+  }
 `;
 const Line = styled.img`
   height: 5px;
@@ -49,6 +55,9 @@ const Desc = styled.p`
   font-size: 20px;
   margin: 0;
   color: lightgray;
+  @media only screen and (max-width: 1000px){
+    font-size: 12px;
+  }
 `;
 const Right = styled.div`
   flex: 3;
@@ -71,6 +80,9 @@ const Img = styled.img`
       transform: scale(1);
     }
   }
+  @media only screen and (max-width: 1000px){
+    height: 250px;
+  }
 `;
 const Img1 = styled.img`
   height: 500px;
@@ -87,6 +99,9 @@ const Img1 = styled.img`
     from {
       transform: scale(1);
     }
+  }
+  @media only screen and (max-width: 1000px){
+    height: 300px;
   }
 `;
 
