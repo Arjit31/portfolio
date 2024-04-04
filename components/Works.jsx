@@ -3,11 +3,11 @@ import styled from "styled-components";
 
 const data = [
   { title: "Blog Website", image: "./img/blog.jpg", link: "https://frontblog1.onrender.com/" },
+  { title: "Connection Game", image: "./img/connectionGame.jpeg", link: "https://gamefront.onrender.com/" },
   { title: "Keeper App", image: "./img/keeper.jpg", link: "https://64d36e000fc1a14f7a431f74--remarkable-croquembouche-4c7402.netlify.app/" },
   { title: "E-Commerce Site", image: "./img/ecommerce.jpg", link: "https://arjit31.github.io/book-chill/index.html" },
   { title: "Simon Game", image: "./img/simon.jpg", link: "https://arjit31.github.io/simon/" },
   { title: "Calculator", image: "./img/calculator.jpg", link: "https://calculator-pv9c.onrender.com/" },
-  { title: "Connection Game", image: "./img/connectionGame.jpeg", link: "https://gamefront.onrender.com/" },
 ];
 
 const Section = styled.div`
@@ -42,7 +42,7 @@ const List = styled.ul`
   gap: 20px;
 `;
 const ListItems = styled.li`
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   cursor: pointer;
   color: transparent;
