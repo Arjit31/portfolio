@@ -7,6 +7,7 @@ const data = [
   { title: "E-Commerce Site", image: "./img/ecommerce.jpg", link: "https://arjit31.github.io/book-chill/index.html" },
   { title: "Simon Game", image: "./img/simon.jpg", link: "https://arjit31.github.io/simon/" },
   { title: "Calculator", image: "./img/calculator.jpg", link: "https://calculator-pv9c.onrender.com/" },
+  { title: "Connection Game", image: "./img/connectionGame.jpeg", link: "https://gamefront.onrender.com/" },
 ];
 
 const Section = styled.div`
