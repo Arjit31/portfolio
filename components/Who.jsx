@@ -16,7 +16,7 @@ const Align = styled.div`
 `;
 const Container = styled.div`
   scroll-snap-align: center;
-  width: 85%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
 `;
@@ -119,16 +119,9 @@ export default function Who() {
               <Subtitle>About Me</Subtitle>
             </WhatIDo>
             <Desc>
-              In the midst of this coding apocalypse, I am not merely a
-              programmer; I am a relentless survivor thriving on challenges and
-              adapting to the ever-evolving tech wasteland. I navigate the
-              digital chaos with languages like C/C++, Javascript, and HTML+CSS.
-              My weapon of choice – Nodejs, VScode, Git, and Github – are
-              essential companions in this perilous journey. With ReactJs and
-              Express.js by my side, I conquer the cloudy realms of MongoDB and
-              dance with relational databases like mySql. I am not just a coder;
-              I am a tech survivor carving my path through the post-apocalyptic
-              coding universe.
+              In this coding apocalypse, I am not just a programmer — I’m a relentless survivor thriving on challenges and adapting to the ever-evolving tech wasteland. I navigate the digital chaos with C/C++, JavaScript, TypeScript, and SQL. Armed with React.js, React Native, Next.js, Tailwind, Node.js, and Express.js, I build resilient web and mobile frontiers.
+
+              I conquer the cloudy realms of MongoDB, PostgreSQL, and Redis, orchestrating real-time battles with Socket.IO and shaping robust backends with Prisma. With Git, GitHub, Postman, and Linux as my allies, I carve my path through this post-apocalyptic universe — turning chaos into creation, one line at a time.
             </Desc>
           </Right>
         </Container>

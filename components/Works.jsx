@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 const data = [
+  { title: "Wallet Application", image: "./img/wallet.png", link: "" },
+  { title: "Chat Application", image: "./img/chat.png", link: "" },
   { title: "Tech Blog", image: "./img/TechBlog.png", link: "https://medium-client-snowy.vercel.app/" },
   { title: "Connection Game", image: "./img/connectionGame.jpeg", link: "https://gamefront.onrender.com/" },
   { title: "Keeper App", image: "./img/keeper.jpg", link: "https://64d36e000fc1a14f7a431f74--remarkable-croquembouche-4c7402.netlify.app/" },
   { title: "Blog Website", image: "./img/blog.jpg", link: "https://frontblog1.onrender.com/" },
-  { title: "E-Commerce Site", image: "./img/ecommerce.jpg", link: "https://arjit31.github.io/book-chill/index.html" },
-  { title: "Simon Game", image: "./img/simon.jpg", link: "https://arjit31.github.io/simon/" },
 ];
 
 const Section = styled.div`
