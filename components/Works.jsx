@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 const data = [
-  { title: "Real-Time Meet & Code Editor", image: "./img/code-along.png", link: "https://code-along-client.netlify.app/" },
+  { title: "Meet & Code", image: "./img/code-along.png", link: "https://code-along-client.netlify.app/" },
   { title: "Wallet Application", image: "./img/wallet.png", link: "https://github.com/Arjit31/wallet-monorepo" },
   { title: "Chat Application", image: "./img/chat.png", link: "https://github.com/Arjit31/chat-app" },
   { title: "Tech Blog", image: "./img/TechBlog.png", link: "https://medium-client-snowy.vercel.app/" },
